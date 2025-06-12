@@ -1,6 +1,6 @@
 
 node {
-    for (int i=0;i<25;i++) {
+    for (int i=0;i<5;i++) {
         stage('stage' +i){
             echo 'inside stage' +i
         }
